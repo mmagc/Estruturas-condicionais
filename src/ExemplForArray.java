@@ -3,8 +3,8 @@ public class ExemplForArray {
 
         String alunos[] = {"Luana", "Matheus", "Gnann", "Galbiatti"};
 
-        for (int i = 0; i < alunos.length; i++) {
-            System.out.println("Aluno indice: " + i + " é " + alunos[i]);
+        for (String aluno : alunos) {
+            System.out.println("Nome do aluno é: " + aluno);
         }
 
     }
