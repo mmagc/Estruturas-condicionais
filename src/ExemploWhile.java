@@ -6,7 +6,7 @@ public class ExemploWhile {
         double mesada = 50.0;
 
         while (mesada > 0) {
-            Double valorDoce = valorAleatorio();
+            double valorDoce = valorAleatorio();
             if (valorDoce > mesada)
                 valorDoce = mesada;
 
